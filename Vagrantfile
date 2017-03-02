@@ -11,5 +11,6 @@ Vagrant.configure("2") do |config|
       salt.minion_config = "components/saltstack/etc/minion"
       salt.run_highstate = true
       salt.verbose = true
+      salt.colorize = true
     end
   end
